@@ -63,7 +63,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>🇮🇳 CodeSamiksha</h1>
+        <h1>PortalVue</h1>
         <button className="btn">Dashboard</button>
       </header>
 
@@ -150,7 +150,7 @@ export default function App() {
 
       <footer className="footer">
         <p>🇮🇳 Making Government Digital Services Accessible to All Indians</p>
-        <p>CodeSamiksha • Empowering Digital India</p>
+        <p>PortalVue • Empowering Digital India</p>
       </footer>
     </div>
   );
