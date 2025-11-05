@@ -1,9 +1,6 @@
 services:
   - type: web
-    name: portalvue
+    name: govt-code-review
     env: python
-    buildCommand: ./build.sh
-    startCommand: gunicorn config.wsgi:application
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.10
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn config.wsgi:application --chdir backend
